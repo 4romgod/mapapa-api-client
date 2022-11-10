@@ -7,7 +7,4 @@ export interface MapapaClientProps {
 
 export enum STAGES {
     DEV = 'dev',
-    BETA = 'beta',
-    GAMMA = 'gamma',
-    PROD = 'prod',
 }
