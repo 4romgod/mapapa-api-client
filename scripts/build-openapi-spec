@@ -1,0 +1,10 @@
+#!/bin/bash
+
+build_model() {
+    echo "Building the openapi model..." &&
+    (mkdir -p build && cd build && mkdir -p openapi) &&
+    (swagger-merger -i openapi/mapapa.yaml -o build/openapi/mapapa.api.yaml --debug) &&
+    (swagger-cli validate build/openapi/mapapa.api.yaml)
+}
+
+build_model

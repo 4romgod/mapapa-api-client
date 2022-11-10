@@ -1,0 +1,11 @@
+---
+openapi: '3.0.0'
+info:
+  description: Backend API Model for Mapapa
+  version: 1.0.0
+  title: Mapapa API
+paths:
+    $ref: "paths/index.yaml"
+components:
+  schemas:
+    $ref: "definitions/index.yaml"

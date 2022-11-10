@@ -1,0 +1,11 @@
+get:
+  summary: HealthCheck for the Mapapa API
+  description: HealthCheck for the Mapapa API
+  tags:
+    - Mapapa
+  operationId: GetHealthCheck
+  responses:
+    200:
+      description: Success
+    400:
+      description: "Bad Request"
