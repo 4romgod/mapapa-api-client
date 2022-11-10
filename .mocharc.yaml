@@ -1,0 +1,13 @@
+# For a complete example look at:
+# https://github.com/mochajs/mocha/blob/master/example/config/.mocharc.yml
+extension:
+  - 'ts'
+require:
+  - 'ts-node/register'
+spec:
+- 'test/**/*.test.ts'
+trace-warnings: true
+watch: false
+watch-files:
+  - 'lib/**/*.ts'
+  - 'test/**/*.ts'
