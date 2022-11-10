@@ -9,4 +9,4 @@ export const MAPAPA_ENDPOINTS = {
 export function getMapapaPropsFromConfig(stage: STAGES): MapapaClientProps {
     const returnProps = MAPAPA_ENDPOINTS[stage];
     return returnProps;
-};
+}

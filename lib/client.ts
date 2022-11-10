@@ -17,4 +17,4 @@ export class MapapaClient {
         this.axiosInstance = getAxiosInstance();
         this.mapapaClient = new MapapaApi(undefined, this.mapapaClientProps.baseUrl, this.axiosInstance);
     }
-};
+}

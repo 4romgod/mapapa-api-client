@@ -1,5 +1,6 @@
 .nyc_output
 build/
 coverage/
+dist/
 generated-client
 node_modules/
