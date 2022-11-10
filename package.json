@@ -2,7 +2,8 @@
   "name": "@mapapa/api-client",
   "version": "1.0.0",
   "description": "Openapi3 Model for Mapapa API",
-  "main": "./build/openapi/mapapa.api.yaml",
+  "main": "dist/lib/index.js",
+  "types": "dist/types/lib/index.d.ts",
   "scripts": {
     "build": "npm run generate-client && npm run lint && npm run test && tsc --pretty",
     "generate-client": "npm run build-model && source ./scripts/generate-client",
