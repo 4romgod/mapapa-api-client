@@ -1,3 +1,13 @@
 Empty:
   type: object
   title: Empty Schema
+
+HealthCheckResponse:
+  type: object
+  properties:
+    uptime:
+      type: number
+    timestamp:
+      type: number
+    message:
+      type: string
